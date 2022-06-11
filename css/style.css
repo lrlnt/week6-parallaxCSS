@@ -144,12 +144,39 @@ body {
 }
 
 footer {
+    height: 250px;
+    background-color: var(--medium-color);
+    font-size: 1.5rem;
     text-align: center;
-    padding: 1rem 0;
+    color: var(--extra-dark-color);
+}
+
+.contact {
+    padding-top: 2rem;
+}
+
+.contact a {
+    color: var(--extra-dark-color);
+    text-decoration: none;
+}
+
+.contact a:hover {
+    color: var(--dark-color);
+    text-decoration: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.contact a:active {
+    color: var(--dark-color);
+    text-decoration: underline overline;
+}
+
+.contact ul li {
+    display: inline-block;
 }
 
 footer p {
-    color: #bbb;
+    padding: 2rem 0;
     display: inline-block;
     animation: spin 2s;
 }
